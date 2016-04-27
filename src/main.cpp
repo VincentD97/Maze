@@ -6,9 +6,6 @@
 //  Copyright © 2016 UCLA. All rights reserved.
 //
 
-// hint限制次数
-// 用户可以改X的颜色
-
 #include "global.h"
 #include "Map.h"
 #include "designMap.h"
@@ -94,7 +91,7 @@ int main()
         {
             printMap( false, map );
             cout << endl << spaces1 <<"Type               \e[1mSteps :\e[0m show minimal remaining steps              \e[1mHint :\e[0m see the solution.";
-            cout << endl << spaces2 <<"\e[1mHelp  :\e[0m view the instructions." << createSpaces(20) << "\e[1mQuit :\e[0m exit.\n";
+            cout << endl << spaces2 <<"\e[1mHelp  :\e[0m view the instructions." << createSpaces(20) << "\e[1mQuit :\e[0m exit." << createSpaces(20) << "\e[1mColor :\e[0m change color of X.\n";
             cout << endl << spaces3 <<"Input Direction :  ";
             cin >> dir;
             // Remaining Steps
