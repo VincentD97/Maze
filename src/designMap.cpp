@@ -123,7 +123,7 @@ void designMap( Map& map )
         start_y = 0;
         exit_x = num - m - 2 * n;
         exit_y = n - 1;
-        map.updateW(exit_x,m-1,true);
+        map.updateE(exit_x,n - 1,true);
     }
     player_x = start_x;
     player_y = start_y;
